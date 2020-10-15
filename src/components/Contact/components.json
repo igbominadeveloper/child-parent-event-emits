@@ -1,0 +1,21 @@
+{
+  "name": "ActionList",
+  "viewType": "simple_data_search",
+  "template": "simple_data_search.vue",
+  "title": "Actions",
+  "layout": {
+    "components": [
+      {
+        "type": "button",
+        "label": "Go Home",
+        "action": "$router.push({name: 'Home', params:{id:null}})"
+      },
+      {
+        "type": "input"
+      },
+      {
+        "type": "table"
+      }
+    ]
+  }
+}
